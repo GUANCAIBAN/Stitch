@@ -525,6 +525,14 @@ class stitch_server(cmd.Cmd):
 
 
 def server_main():
+    """
+    1.显示log
+    2.开启服务和监听端口
+    3.开始执行命令。这跟CS是一个步骤
+
+    Returns:
+
+    """
     try:
         st_log.info('Starting Stitch')
         st = stitch_server()
